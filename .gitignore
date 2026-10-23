@@ -1,0 +1,30 @@
+# Datos y salidas
+data/
+*.csv
+*.xlsx
+*.xls
+*.db
+outputs/
+
+# Secretos
+.env
+.env.*
+*.pem
+*.key
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# SO/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
